@@ -8,4 +8,4 @@ In a Symfony project I'm working on on-the-side, I'm experiencing failures when 
 
 The failures I'm getting are basically, "Class PHPUnit\Framework\TestCase not found."
 
-Note: this README will be updated with the fix once the fix is found.
+**Note:** this README will be updated with the fix once the fix is found.
