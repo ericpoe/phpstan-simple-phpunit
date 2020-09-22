@@ -9,7 +9,7 @@ before_script:
   - composer self-update
   - composer install --prefer-source --no-interaction
 script:
-  vendor/bin/simple-phpunit
-  vendor/bin/phpstan analyse
+  - vendor/bin/simple-phpunit
+  - vendor/bin/phpstan analyse
 allow_failures:
   - php: nightly
