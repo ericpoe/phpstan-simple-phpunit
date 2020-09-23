@@ -2,5 +2,5 @@ parameters:
   level: 0
   paths:
     - tests
-  scanFiles:
+  bootstrapFiles:
     - vendor/bin/.phpunit/phpunit/vendor/autoload.php
