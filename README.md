@@ -8,4 +8,4 @@ In a Symfony project I'm working on on-the-side, I'm experiencing failures when 
 
 The failures I'm getting are basically, "Class PHPUnit\Framework\TestCase not found."
 
-Using this little project, I've discovered that the fix is in [`phpstan.neon`](phpstan.neon) to replace "autoload_files" with `bootstrapFiles`
+Using this little project, I've discovered that the fix is in [`phpstan.neon`](phpstan.neon) to replace `autoload_files` with `bootstrapFiles`
